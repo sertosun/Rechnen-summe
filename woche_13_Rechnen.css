@@ -1,4 +1,3 @@
-
 *{box-sizing: border-box;}
 
 .container
@@ -22,7 +21,8 @@
     flex-direction: row;
 }
 
-input{
+input
+{
     width: 125px;
     height: 55px; 
     margin-left: 15px;
@@ -42,17 +42,14 @@ input{
     text-align: center;
 }
 
-.form-control:active,
-
-.form-control:focus,
-
-.form-control:focus:active {
-  background-color: #96d3ec!important;
-  
+.form-control:active, .form-control:focus, .form-control:focus:active 
+{
+  background-color: #96d3ec !important;  
   color: white;
 }
 
-button{
+button
+{
     background-color: rgb(102, 102, 102);
     width: 300px;
     height: 50px;
@@ -62,6 +59,7 @@ button{
     margin-top: 50px;
     margin-left: 10px;
 }
+
 
 /*================================*/
 /*              FARBE             */
@@ -75,8 +73,7 @@ button{
     align-items: center;
     flex-direction: row;
     height: 500px;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 .box
@@ -85,13 +82,11 @@ width: 150px;
 height: 150px;
 border: 1px solid grey;
 border-radius: 10px;
-
 }
 
 .taste
 {
 margin-left: 70px;
-
 }
 
 .taste button
@@ -109,5 +104,4 @@ margin-left: 70px;
 .taste button:last-child
 {
     background-color: black;
-
 }
